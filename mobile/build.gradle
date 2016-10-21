@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.3'
+
+    defaultConfig {
+        applicationId "net.fred.feedex"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 65
+        versionName "1.9.8"
+    }
+
+    lintOptions {
+        // if true, stop the gradle build if errors are found
+        abortOnError true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    signingConfigs {
+        debug {
+            if (project.hasProperty("KEYSTORE_PATH")) {
+                storeFile file(KEYSTORE_PATH)
+                storePassword KEYSTORE_PASSWORD
+                keyAlias KEY_ALIAS
+                keyPassword KEY_PASSWORD
+            }
+        }
+
+        release {
+            if (project.hasProperty("KEYSTORE_PATH")) {
+                storeFile file(KEYSTORE_PATH)
+                storePassword KEYSTORE_PASSWORD
+                keyAlias KEY_ALIAS
+                keyPassword KEY_PASSWORD
+            }
+            keyAlias 'tbs1b1'
+            keyPassword '13469038040'
+            storeFile file('/home/tbs1b1/Documents/keystore.jks')
+            storePassword '13469038040'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+			signingConfig signingConfigs.release
+        }
+    }
+}
+
+repositories {
+    maven {
+        url 'http://dl.bintray.com/amulyakhare/maven'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //wearApp project(':wear')
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.android.support:design:+'
+    compile 'com.google.android.gms:play-services-gcm:+'
+    //compile 'com.google.android.gms:play-services-wearable:+'
+    compile 'org.jsoup:jsoup:+'
+    compile 'com.github.bumptech.glide:glide:+'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:+'
+    compile 'com.squareup.okhttp3:okhttp-urlconnection:+'
+}
