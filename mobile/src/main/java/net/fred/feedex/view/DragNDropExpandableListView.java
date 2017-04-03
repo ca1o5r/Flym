@@ -163,6 +163,7 @@ public class DragNDropExpandableListView extends ExpandableListView {
 
     @Override
     public long getItemIdAtPosition(int flatPos) {
+        if (getExpandableListAdapter()==null) return 0;
         long packedPos = getExpandableListPosition(flatPos);
         if (ExpandableListView.getPackedPositionType(packedPos) == ExpandableListView.PACKED_POSITION_TYPE_GROUP) {
             return getExpandableListAdapter().getGroupId(ExpandableListView.getPackedPositionGroup(packedPos));

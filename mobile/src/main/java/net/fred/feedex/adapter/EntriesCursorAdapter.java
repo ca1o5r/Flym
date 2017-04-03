@@ -109,7 +109,11 @@ public class EntriesCursorAdapter extends ResourceCursorAdapter {
         ColorGenerator generator = ColorGenerator.DEFAULT;
         int color = generator.getColor(feedId); // The color is specific to the feedId (which shouldn't change)
         String lettersForName = feedName != null ? (feedName.length() < 2 ? feedName.toUpperCase() : feedName.substring(0, 2).toUpperCase()) : "";
-        TextDrawable letterDrawable = TextDrawable.builder().buildRect(lettersForName, color);
+
+        com.amulyakhare.textdrawable.TextDrawable.Builder txtBuilder = (com.amulyakhare.textdrawable.TextDrawable.Builder)TextDrawable.builder();
+
+        TextDrawable letterDrawable = txtBuilder.buildRect(lettersForName, color);
+
         if (mainImgUrl != null) {
             Glide.with(context).load(mainImgUrl).centerCrop().placeholder(letterDrawable).error(letterDrawable).into(holder.mainImgView);
         } else {

@@ -76,6 +76,7 @@ public class FeedsCursorAdapter extends CursorLoaderExpandableListAdapter {
             indicatorImage.setVisibility(View.VISIBLE);
 
             TextView textView = ((TextView) view.findViewById(android.R.id.text1));
+
             textView.setEnabled(true);
             textView.setText(cursor.getString(mNamePos));
             textView.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null);

@@ -236,8 +236,8 @@
         <item>Vždy</item>
     </string-array>
     <string-array name="feed_proxy_names">
-        <item>Podrazumevani</item>
-        <item>Da</item>
-        <item>ne</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
 </resources>

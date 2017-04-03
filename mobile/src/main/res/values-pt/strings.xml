@@ -64,6 +64,7 @@
     <string name="tab_feed_title">Feed</string>
     <string name="tab_filters_title">Filtro</string>
     <string name="feed_title">TÍTULO</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">REGRAS DO FILTRO</string>
     <string name="filter_add_title">Adicionar regra</string>
     <string name="filter_delete_title">Deletar regra</string>
@@ -166,16 +167,16 @@
     <string name="settings_widget_background_description">Cor e transparencia do fundo do widget</string>
     <string name="all_feeds">Todos os feeds (incl. futuros)</string>
     <string name="settings_screen_proxy">Proxy</string>
-    <string name="settings_category_network">Rede</string>
-    <string name="settings_proxy_enabled">Habilitado</string>
-    <string name="settings_proxy_wifi_only">Wi-Fi apenas</string>
-    <string name="settings_proxy_wifi_only_description">Usar Proxy somente para Wi-Fi</string>
-    <string name="settings_proxy_host">Acolhimento</string>
-    <string name="settings_proxy_port">Porto</string>
-    <string name="settings_proxy_type">Tipo</string>
+    <string name="settings_category_network">Network</string>
+    <string name="settings_proxy_enabled">Enabled</string>
+    <string name="settings_proxy_wifi_only">Wi-Fi only</string>
+    <string name="settings_proxy_wifi_only_description">Use Proxy only for Wi-Fi</string>
+    <string name="settings_proxy_host">Host</string>
+    <string name="settings_proxy_port">Port</string>
+    <string name="settings_proxy_type">Type</string>
 
     <plurals name="number_of_new_entries">
-        <item quantity="one">Uma nova entrada</item>
+        <item quantity="one">%d nova entrada</item>
         <item quantity="other">%d novas entradas</item>
     </plurals>
 
@@ -214,11 +215,9 @@
         <item>Apenas com Wi-Fi</item>
         <item>Sempre</item>
     </string-array>
-    <string name="feed_proxy">PROXY</string>
     <string-array name="feed_proxy_names">
-        <item>Padrão</item>
-        <item>Sim</item>
-        <item>N</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

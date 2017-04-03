@@ -66,6 +66,7 @@
     <string name="tab_feed_title">Zdroj</string>
     <string name="tab_filters_title">Filter</string>
     <string name="feed_title">NÁZOV</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">PRAVIDLÁ FILTROV</string>
     <string name="filter_add_title">Pridať pravidlo</string>
     <string name="filter_delete_title">Zmazať pravidlo</string>
@@ -220,11 +221,9 @@
         <item>Len cez Wi-Fi</item>
         <item>Vždy</item>
     </string-array>
-    <string name="feed_proxy">PROXY</string>
     <string-array name="feed_proxy_names">
-        <item>Predvolené</item>
-        <item>áno</item>
-        <item>nie</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

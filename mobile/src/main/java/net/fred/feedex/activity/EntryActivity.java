@@ -47,6 +47,7 @@ public class EntryActivity extends BaseActivity {
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

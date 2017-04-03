@@ -219,9 +219,8 @@
         <item>Immer</item>
     </string-array>
     <string-array name="feed_proxy_names">
-        <item>Standard</item>
-        <item>Ja</item>
-        <item>Nein</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

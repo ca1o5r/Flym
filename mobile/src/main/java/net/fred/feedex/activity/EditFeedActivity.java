@@ -229,6 +229,7 @@ public class EditFeedActivity extends BaseActivity implements LoaderManager.Load
         setContentView(R.layout.activity_feed_edit);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

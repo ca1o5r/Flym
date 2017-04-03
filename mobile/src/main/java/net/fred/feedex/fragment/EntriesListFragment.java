@@ -213,6 +213,7 @@ public class EntriesListFragment extends SwipeRefreshListFragment {
                     PrefUtils.putBoolean(PrefUtils.DISPLAY_TIP, false);
                 }
             });
+
             mListView.addHeaderView(header);
         }
 

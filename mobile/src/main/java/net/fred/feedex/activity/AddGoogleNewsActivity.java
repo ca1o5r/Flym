@@ -57,6 +57,7 @@ public class AddGoogleNewsActivity extends BaseActivity {
         mCustomTopicEditText = (EditText) findViewById(R.id.google_news_custom_topic);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

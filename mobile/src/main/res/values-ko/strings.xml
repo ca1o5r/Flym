@@ -65,6 +65,7 @@
     <string name="tab_feed_title">피드</string>
     <string name="tab_filters_title">필터</string>
     <string name="feed_title">제목</string>
+    <string name="feed_proxy">프록시</string>
     <string name="feed_filters">필터 규칙</string>
     <string name="filter_add_title">규칙 추가</string>
     <string name="filter_delete_title">규칙 삭제</string>
@@ -214,11 +215,9 @@
         <item>Wi-Fi를 통해서만</item>
         <item>언제나</item>
     </string-array>
-    <string name="feed_proxy">프록시</string>
     <string-array name="feed_proxy_names">
-        <item>기본</item>
-        <item>예</item>
-        <item>없음</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

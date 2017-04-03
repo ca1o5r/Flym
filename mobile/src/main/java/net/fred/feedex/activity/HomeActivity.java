@@ -88,6 +88,7 @@ public class HomeActivity extends BaseActivity implements LoaderManager.LoaderCa
         mTitle = getTitle();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

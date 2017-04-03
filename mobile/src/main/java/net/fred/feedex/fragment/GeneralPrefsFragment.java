@@ -80,7 +80,6 @@ public class GeneralPrefsFragment extends PreferenceFragment {
 
         setRingtoneSummary();
 
-
         Preference preference = findPreference(PrefUtils.REFRESH_ENABLED);
         preference.setOnPreferenceChangeListener(mOnRefreshChangeListener);
         preference = findPreference(PrefUtils.REFRESH_INTERVAL);
@@ -100,6 +99,7 @@ public class GeneralPrefsFragment extends PreferenceFragment {
                 return true;
             }
         });
+
     }
 
     @Override

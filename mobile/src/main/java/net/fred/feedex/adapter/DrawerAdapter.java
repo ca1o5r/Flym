@@ -105,6 +105,7 @@ public class DrawerAdapter extends BaseAdapter {
         holder.titleTxt.setAllCaps(false);
         holder.stateTxt.setVisibility(View.GONE);
         holder.unreadTxt.setText("");
+
         convertView.setPadding(0, 0, 0, 0);
         holder.separator.setVisibility(View.GONE);
 

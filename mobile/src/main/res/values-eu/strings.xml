@@ -69,7 +69,7 @@
     <string name="tab_feed_title">Jarioa</string>
     <string name="tab_filters_title">Iragazkia</string>
     <string name="feed_title">IZENBURUA</string>
-    <string name="feed_proxy">PROXYA</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">IRAGAZKI ARAUAK</string>
     <string name="filter_add_title">Araua gehitu</string>
     <string name="filter_delete_title">Araua ezabatu</string>
@@ -234,9 +234,8 @@
         <item>Beti</item>
     </string-array>
     <string-array name="feed_proxy_names">
-        <item>Zadani</item>
-        <item>Da</item>
-        <item>ne</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

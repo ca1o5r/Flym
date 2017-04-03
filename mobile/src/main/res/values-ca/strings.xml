@@ -68,7 +68,7 @@
     <string name="tab_feed_title">Canal</string>
     <string name="tab_filters_title">Filtres</string>
     <string name="feed_title">TÍTOL</string>
-    <string name="feed_proxy">APODERAT</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">FILTRES D\'EXCLUSIÓ</string>
     <string name="filter_add_title">Addició de filtres</string>
     <string name="filter_delete_title">Eliminació filtres</string>
@@ -230,8 +230,8 @@
         <item>Always</item>
     </string-array>
     <string-array name="feed_proxy_names">
-        <item>Per defecte</item>
-        <item>Sí</item>
+        <item>Default</item>
+        <item>Yes</item>
         <item>No</item>
     </string-array>
 </resources>

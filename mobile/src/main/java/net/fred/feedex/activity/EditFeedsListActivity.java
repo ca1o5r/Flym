@@ -36,6 +36,7 @@ public class EditFeedsListActivity extends BaseActivity {
         setContentView(R.layout.activity_edit_feeds);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

@@ -69,6 +69,7 @@
     <string name="tab_feed_title">Flux</string>
     <string name="tab_filters_title">Filtres</string>
     <string name="feed_title">TITRE</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">FILTRES D\'EXCLUSION</string>
     <string name="filter_add_title">Ajouter un filtre</string>
     <string name="filter_delete_title">Supprimer un filtre</string>
@@ -234,11 +235,9 @@
         <item>En Wi-Fi uniquement</item>
         <item>Toujours</item>
     </string-array>
-    <string name="feed_proxy">PROXY</string>
     <string-array name="feed_proxy_names">
-        <item>Par défaut</item>
-        <item>Oui</item>
-        <item>N°</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

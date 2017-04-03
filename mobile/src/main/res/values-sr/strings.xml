@@ -65,6 +65,7 @@
     <string name="tab_feed_title">Довод</string>
     <string name="tab_filters_title">Филтер</string>
     <string name="feed_title">НАСЛОВ</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">ПРАВИЛА ФИЛТЕРА</string>
     <string name="filter_add_title">Додавање правила</string>
     <string name="filter_delete_title">Брисање правила</string>
@@ -216,11 +217,9 @@
         <item>Само преко бежичног</item>
         <item>Увек</item>
     </string-array>
-    <string name="feed_proxy">ПРОКСИ</string>
     <string-array name="feed_proxy_names">
-        <item>Podrazumevani</item>
-        <item>Da</item>
-        <item>ne</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

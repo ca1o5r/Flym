@@ -82,7 +82,8 @@ public class EntryView extends WebView {
     private static final String SUBTITLE_COLOR = PrefUtils.getBoolean(PrefUtils.LIGHT_THEME, false) ? "#666666" : "#8c8c8c";
     private static final String SUBTITLE_BORDER_COLOR = PrefUtils.getBoolean(PrefUtils.LIGHT_THEME, false) ? "solid #ddd" : "solid #303030";
     private static final String CSS = "<head><style type='text/css'> "
-            + "body {max-width: 100%; margin: 0.3cm; font-family: sans-serif-light; color: " + TEXT_COLOR + "; background-color:" + BACKGROUND_COLOR + "; line-height: 150%} "
+            +"@font-face {font-family: 'FreeMono'; src: url('FreeMonoBold.ttf');} "
+            + "body {max-width: 100%; margin: 0.3cm; font-family: 'FreeMono'; color: " + TEXT_COLOR + "; background-color:" + BACKGROUND_COLOR + "; line-height: 150%} "
             + "* {max-width: 100%; word-break: break-word}"
             + "h1, h2 {font-weight: normal; line-height: 130%} "
             + "h1 {font-size: 170%; margin-bottom: 0.1em} "
@@ -97,9 +98,9 @@ public class EntryView extends WebView {
             + "ul, ol {margin: 0 0 0.8em 0.6em; padding: 0 0 0 1em} "
             + "ul li, ol li {margin: 0 0 0.8em 0; padding: 0} "
             + "div.button-section {padding: 0.4cm 0; margin: 0; text-align: center} "
-            + ".button-section p {margin: 0.1cm 0 0.2cm 0}"
+            + ".button-section p {margin: 0.4cm 0.4cm 0.8cm 0.4cm}"
             + ".button-section p.marginfix {margin: 0.5cm 0 0.5cm 0}"
-            + ".button-section input, .button-section a {font-family: sans-serif-light; font-size: 100%; color: #FFFFFF; background-color: " + BUTTON_COLOR + "; text-decoration: none; border: none; border-radius:0.2cm; padding: 0.3cm} "
+            + ".button-section input, .button-section a {font-family: 'FreeMono'; font-size: 100%; color: #FFFFFF; background-color: " + BUTTON_COLOR + "; text-decoration: none; border: none; padding: 0.5cm} "
             + "</style><meta name='viewport' content='width=device-width'/></head>";
     private static final String BODY_START = "<body>";
     private static final String BODY_END = "</body>";

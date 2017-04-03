@@ -63,6 +63,7 @@
     <string name="tab_feed_title">Feed</string>
     <string name="tab_filters_title">Filter</string>
     <string name="feed_title">TITEL</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">FILTRERINGSREGLER</string>
     <string name="filter_add_title">Lägg till regel</string>
     <string name="filter_delete_title">Radera regel</string>
@@ -214,11 +215,9 @@
     <string name="google_news_custom_topic">Lägg till eget tema</string>
     <string name="unread_entries">Nya</string>
     <string name="undo">Avmarkera</string>
-    <string name="feed_proxy">PROXY</string>
     <string-array name="feed_proxy_names">
-        <item>Standard</item>
-        <item>Ja</item>
-        <item>Nej</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>

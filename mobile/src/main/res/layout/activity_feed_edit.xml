@@ -50,7 +50,7 @@
                         android:layout_marginTop="5dp"
                         android:hint="@string/website_or_feed"
                         android:inputType="textUri"
-                        android:singleLine="true"/>
+                        android:maxLines="1"/>
 
                     <TextView
                         android:id="@+id/name_textview"
@@ -72,7 +72,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_marginTop="5dp"
                         android:hint="@string/optional"
-                        android:singleLine="true"/>
+                        android:maxLines="1"/>
 
                     <TextView
                         android:id="@+id/proxy_textview"
@@ -141,7 +141,8 @@
                             android:id="@android:id/list"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:choiceMode="singleChoice"/>
+                            android:choiceMode="singleChoice"
+                            />
                     </FrameLayout>
                 </RelativeLayout>
             </FrameLayout>

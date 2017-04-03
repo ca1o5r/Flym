@@ -64,6 +64,7 @@
     <string name="tab_feed_title">订阅</string>
     <string name="tab_filters_title">过滤器</string>
     <string name="feed_title">标题</string>
+    <string name="feed_proxy">代理</string>
     <string name="feed_filters">过滤规则</string>
     <string name="filter_add_title">添加规则</string>
     <string name="filter_delete_title">删除规则</string>
@@ -214,11 +215,9 @@
         <item>仅限Wi-Fi</item>
         <item>总是</item>
     </string-array>
-    <string name="feed_proxy">代理</string>
     <string-array name="feed_proxy_names">
         <item>默认</item>
         <item>是</item>
         <item>否</item>
     </string-array>
-
 </resources>

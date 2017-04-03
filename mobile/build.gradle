@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "net.fred.feedex"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 65
         versionName "1.9.8"
@@ -41,7 +41,7 @@ android {
             }
             keyAlias 'tbs1b1'
             keyPassword '13469038040'
-            storeFile file('/home/tbs1b1/Documents/keystore.jks')
+            storeFile file('/opt/devel-android/keystore.jks')
             storePassword '13469038040'
         }
     }
@@ -53,12 +53,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 			signingConfig signingConfigs.release
         }
-    }
-}
-
-repositories {
-    maven {
-        url 'http://dl.bintray.com/amulyakhare/maven'
     }
 }
 

@@ -70,8 +70,6 @@ class PrefUtils {
 
 	public static final String PROXY_TYPE = "proxy.type";
 
-	public static final String PROXY_SMART = "proxy.smart";
-
 	public static final String KEEP_TIME = "keeptime";
 
 	public static final String FONT_SIZE = "fontsize";

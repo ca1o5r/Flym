@@ -233,9 +233,8 @@
         <item>Always</item>
     </string-array>
     <string-array name="feed_proxy_names">
-        <item>Por defecto</item>
-        <item>Sí</item>
+        <item>Default</item>
+        <item>Yes</item>
         <item>No</item>
     </string-array>
-
 </resources>

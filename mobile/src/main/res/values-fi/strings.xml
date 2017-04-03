@@ -65,6 +65,7 @@
     <string name="tab_feed_title">Syöte</string>
     <string name="tab_filters_title">Suodatus</string>
     <string name="feed_title">OTSIKKO</string>
+    <string name="feed_proxy">PROXY</string>
     <string name="feed_filters">SUODATTIMEN SÄÄNNÖT</string>
     <string name="filter_add_title">Lisää sääntö</string>
     <string name="filter_delete_title">Poista sääntö</string>
@@ -225,11 +226,9 @@
     <string name="unread_entries">Uudet</string>
     <string name="google_news_custom_topic">Lisää oma aihe</string>
     <string name="all_entries">Kaikki </string>
-    <string name="feed_proxy">VÄLITYSPALVELIN</string>
     <string-array name="feed_proxy_names">
-        <item>Oletus</item>
-        <item>Kyllä</item>
-        <item>Ei</item>
+        <item>Default</item>
+        <item>Yes</item>
+        <item>No</item>
     </string-array>
-
 </resources>
